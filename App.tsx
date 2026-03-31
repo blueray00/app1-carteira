@@ -7,10 +7,7 @@ export default function App() {
       <View style={styles.border}>
         <Text style={styles.titulo}>REPÚBLICA FEDERATIVA DO BRASIL</Text>
         <Text style={styles.subtitulo}>IDENTIDADE VIRTUAL</Text>
-        <Image 
-          style={styles.image}
-          source={{ uri: 'https://static.wikia.nocookie.net/fma/images/9/98/Olivier.png/revision/latest?cb=20190928034403&path-prefix=pt-br' }}
-        />
+        <Image source={require('./assets/Oliver.png')} style={styles.imagem} />
         <Text style={styles.dados}>Nome</Text>
         <Text style={styles.pessoal}>Olivier Mira Armstrong</Text>
         <Text style={styles.dados}>CPF</Text>
@@ -60,7 +57,7 @@ const styles = StyleSheet.create({
     fontSize: 15,
     textAlign: "left",
   },
-  image: {
+  imagem: {
     width: 200,
     height: 200,
     marginVertical: 10,
