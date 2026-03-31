@@ -6,7 +6,7 @@ export default function App() {
     <View style={styles.container}>
       <View style={styles.border}>
         <Text style={styles.titulo}>REPÚBLICA FEDERATIVA DO BRASIL</Text>
-        <Text style={styles.subtitulo}>IDENTIDADE VISUAL</Text>
+        <Text style={styles.subtitulo}>IDENTIDADE VIRTUAL</Text>
         <Image 
           style={styles.image}
           source={{ uri: 'https://static.wikia.nocookie.net/fma/images/9/98/Olivier.png/revision/latest?cb=20190928034403&path-prefix=pt-br' }}
